@@ -16,7 +16,7 @@ PRU 核心是 32 位 RISC 精简指令集单片机 MCU 核心，时钟频率最�
 除了核心之间存在区别，外设完全相同。
 
 ## 参数对比
-![参数对比](![核心板图1](http://fpga.net.cn/图片/OMAP-L138_系列参数对比.png)
+![参数对比](http://fpga.net.cn/图片/OMAP-L138_系列参数对比.png)
 
 # SOM-CKL138 核心板
 
@@ -644,7 +644,7 @@ EVM-CKL138PKT/EVM-CK6748PKT 口袋板是基于 SOM-CKL138/SOM-CK6748 核心板�
     </tr>
 </table>
 
-![口袋版尺寸图](EVM-CKL138PKT_PCB.png)
+![口袋版尺寸图](http://fpga.net.cn/图片/EVM-CKL138PKT_PCB.png)
 
 ### 软件参数
 <table align="center">
