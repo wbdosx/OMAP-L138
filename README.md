@@ -1,3 +1,23 @@
+# OMAP-L138/TMS320C6748/AM1808 系列参数对比
+
+## 修订历史
+| 版本 |      时间      |        作者        |    说明    |
+| :--: | :------------: | :----------------: | :--------: |
+| 1.00 | 2022年04月12日 | 希望缄默(bin wang) | 初始版本   |
+
+## 概述
+OMAP-L138/TMS320C6748/AM1808 系列共有 9 款 DSP/ARM SoC 芯片引脚完全兼容。
+  
+**OMAP-L138** DSP C674x 核心 + ARM9 核心 + 双 PRU 核心异构多核 SoC  
+**TMS320C6748** DSP C674x 核心 + 双 PRU 核心异构多核 SoC  
+**AM1808** ARM9 核心 + 双 PRU 核心异构多核 SoC  
+
+PRU 核心是 32 位 RISC 精简指令集单片机 MCU 核心，时钟频率最高为 DSP/ARM 的 $\frac{1}{2}$。  
+除了核心之间存在区别，外设完全相同。
+
+## 参数对比
+![参数对比](![核心板图1](http://fpga.net.cn/图片/OMAP-L138_系列参数对比.png)
+
 # SOM-CKL138 核心板
 
 ## 修订历史
@@ -8,9 +28,9 @@
 ## 概述
 SOM-CKL138 核心板是基于 TI C6000 系列 DSP + ARM 异构多核架构定点/浮点数字信号处理器设计的核心板。  
 
-![核心板图1](https://github.com/wbdosx/OMAP-L138/blob/master/SOM-CKL138_1.jpg)
-![核心板图1](https://github.com/wbdosx/OMAP-L138/blob/master/SOM-CKL138_2.jpg)
-![核心板图1](https://github.com/wbdosx/OMAP-L138/blob/master/SOM-CKL138_3.jpg)
+![核心板图1](http://fpga.net.cn/图片/SOM-CKL138_1.jpg)
+![核心板图1](http://fpga.net.cn/图片/SOM-CKL138_2.jpg)
+![核心板图1](http://fpga.net.cn/图片/SOM-CKL138_3.jpg)
 
 ## 参数
 ### 硬件参数
@@ -110,9 +130,6 @@ SOM-CKL138 核心板是基于 TI C6000 系列 DSP + ARM 异构多核架构定点
 		<td>工业级 -40°C - 85°C</td>
     </tr>
 </table>
-
-处理器详细外设参数请参阅  
-[「OMAP-L138/C6748/AM1808 系列参数对比」](zh-cn/DSP/OMAP-L138_系列参数对比)
 
 ### 尺寸
 <table align="center">
@@ -260,7 +277,7 @@ SOM-CKL138 核心板是基于 TI C6000 系列 DSP + ARM 异构多核架构定点
 ## 概述
 EVM-CKL138PKT/EVM-CK6748PKT 口袋板是基于 SOM-CKL138/SOM-CK6748 核心板设计的便携式开发板。  
 
-![口袋板图1](https://github.com/wbdosx/OMAP-L138/blob/master/EVM-CKL138PKT_1.jpg)
+![口袋板图1](http://fpga.net.cn/图片/EVM-CKL138PKT_1.jpg)
 
 ## 参数
 ### 硬件参数
@@ -426,10 +443,6 @@ EVM-CKL138PKT/EVM-CK6748PKT 口袋板是基于 SOM-CKL138/SOM-CK6748 核心板�
 		<td>商业级 0°C - 85°C</td>
     </tr>
 </table>
-
-核心板详细参数请参阅  
-[「SOM-CKL138 系列核心板参数」](zh-cn/Product/SOM/SOM-CKL138)  
-[「SOM-CK6748 系列核心板参数」](zh-cn/Product/SOM/SOM-CK6748)  
 
 树莓派扩展引脚
 <table align="center">
@@ -848,7 +861,7 @@ EVM-CKL138PKT/EVM-CK6748PKT 口袋板是基于 SOM-CKL138/SOM-CK6748 核心板�
 ## 概述
 EVM-CK6748EDA/EVM-CKL138EDA 是面向高校嵌入式 DSP/DSP+ARM 异构多核教学设计的实验箱。  
 
-![实验箱图1](https://github.com/wbdosx/OMAP-L138/blob/master/EVM-CKL138EDA_1.jpg)
+![实验箱图1](http://fpga.net.cn/图片/EVM-CKL138EDA_1.jpg)
 
 ## 参数
 ### 硬件参数
@@ -1251,7 +1264,7 @@ EVM-CK6748EDA/EVM-CKL138EDA 是面向高校嵌入式 DSP/DSP+ARM 异构多核教
     </tr>
 </table>
 
-![实验箱底板尺寸图](EVM-CKL138EDA_PCB.png)
+![实验箱底板尺寸图](http://fpga.net.cn/图片/EVM-CKL138EDA_PCB.png)
 
 ### 软件参数
 <table align="center">
@@ -1485,7 +1498,7 @@ ZYNQ/MPSoC 群: 724234610
 **微信群** 
 
 **微信公众号**  
-![微信公众号](https://github.com/wbdosx/OMAP-L138/blob/master/微信公众号.jpg)
+![微信公众号](http://fpga.net.cn/图片/微信公众号.jpg)
 
 **官网**  
 [*corekernel.net*](http://corekernel.net)  
